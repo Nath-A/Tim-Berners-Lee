@@ -7,7 +7,7 @@ Vérifier nos connaissances en html et css et notre capacité à reproduire une 
 ### Langages et outils utilisés
 * Visual Studio Code
 * HTML5 & CSS3 
-* Playlist :metal_tone4: : 
+* Playlist :metal: : 
     * Wind Rose - Wardens of the West Wind
     * Wind Rose - Wintersaga (Diggy diggy Hole :heart: ) 
 
