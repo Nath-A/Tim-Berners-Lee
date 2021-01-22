@@ -5,5 +5,5 @@
 Vérifier nos connaissances en html et css et notre capacité à reproduire une page demandée. 
 
 ### Langages utilisés
-. HTML5
-. CSS3
+.HTML5
+.CSS3
