@@ -11,7 +11,10 @@ body
 header, nav, section
 {
     background-color: #ffffff;
-    width: 42vw;
+    /* POUR AFFICHAGE MOIT MOIT  */
+    /* width: 50vw; */
+    /* POUR AFFICHAGE FINAL SUR 1080P */
+    width: 30vw; 
     margin: 25px auto;
     padding: 15px;
 
@@ -40,6 +43,11 @@ h2
     font-size: 1.1em;
 }
 
+h3
+{
+    font-size: 0.9em;
+    margin-top: 0;
+}
 p
 {
     font-size:0.9em;
@@ -122,8 +130,8 @@ nav a
 
 nav i
 {
-    font-weight: bold;
-    font-size: 1.2em !important;
+    /* font-weight: bold; */
+    font-size: 2em !important;
     margin-bottom: 5px;
 }
 
@@ -133,3 +141,27 @@ nav a:hover
 }
 
 /* ----------------------SECTION----------------------- */
+section article
+{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    vertical-align: middle;
+    margin-bottom: 40px;
+    padding: 0 20px;
+}
+
+/* article p strong
+{
+    text-align: center;
+} */
+
+section article img
+{
+    /* height: 100px; */
+    width:80px;
+}
+
+section h2
+{
+    margin-bottom: 40px !important;
+}
