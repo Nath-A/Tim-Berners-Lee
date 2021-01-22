@@ -1,5 +1,135 @@
+/* ----------------------GENERAL----------------------- */
 body
 {
     font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    background-color: #ebebeb;
+    color: #959595;
+
+}
+
+header, nav, section
+{
+    background-color: #ffffff;
+    width: 42vw;
+    margin: 25px auto;
+    padding: 15px;
+
+}
+
+strong
+{
+    font-weight: 700;
+}
+/* ----------------------TITRES----------------------- */
+h1, h2, h3
+{
+    text-align: center;
+    font-weight: 700;
+}
+
+h1
+{
+    font-weight: 800;
+    color: #dd5555;
+    font-size: 1.5em;
+}
+
+h2
+{
+    font-size: 1.1em;
+}
+
+p
+{
+    font-size:0.9em;
+    line-height: 1.5em;
+}
+
+/* ----------------------HEADER----------------------- */
+
+header img
+{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border : 3px solid #ebebeb;
+    width: 100px;
+}
+
+header a
+{
+    /* margin-top: 20px; */
+    display: block;
+    margin: 0 auto;
+    padding : 8px;
+    background-color: #dd5555;
+    width: 130px;
+    color:#ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center;
+}
+
+header a:hover
+{
+    background-color: #ffffff;
+    color :#dd5555;
+    border: 1px solid #dd5555;
+    padding: 7px;
+}
+
+header p:last-child
+{
+    margin-bottom: 0;
+}
+
+/* ----------------------NAV----------------------- */
+nav 
+{
+    padding: 30px 15px 
+}
+nav ul
+{
+    display: grid;
+    /* grid-template-columns: repeat(5 , 20%); */
+    grid-template-columns: 15% 1fr 1fr 1fr 15%;
+
+    list-style-type: none;
+    text-align: center;
+    padding:0;
     
 }
+
+nav li
+{
+    margin: 0 auto;
+    /* grid-column-end: 4; */
+    font-size: 0.9em;
+}
+
+nav li:first-child
+{
+    grid-column-start: 2;
+}
+nav a
+{
+    color: #cecece;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+nav i
+{
+    font-weight: bold;
+    font-size: 1.2em !important;
+    margin-bottom: 5px;
+}
+
+nav a:hover
+{
+    color: #959595;
+}
+
+/* ----------------------SECTION----------------------- */
